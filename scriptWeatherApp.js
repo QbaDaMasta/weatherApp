@@ -35,18 +35,18 @@ const getWeather = () => {
 			if (status.id >= 200 && status.id <= 232) {
 				photo.setAttribute("src", "./img/thunderstorm.png");
 			} else if (status.id >= 300 && status.id <= 321) {
-				photo.setAttribute("src", "./img/drizzle.png");
+				photo.setAttribute("src", "./drizzle.png");
 			} else if (status.id >= 500 && status.id <= 531) {
-				photo.setAttribute("src", "./img/rain.png");
+				photo.setAttribute("src", "./rain.png");
 			} else if (status.id >= 600 && status.id <= 622) {
-				photo.setAttribute("src", "./img/ice.png");
+				photo.setAttribute("src", "./ice.png");
 			} else if (status.id === 800) {
-				photo.setAttribute("src", "./img/sun.png");
+				photo.setAttribute("src", "./sun.png");
 			} else if (status.id >= 801 && status.id <= 804) {
-				photo.setAttribute("src", "./img/cloud.png");
+				photo.setAttribute("src", "./cloud.png");
 			} else if (status.id >= 701 && status.id <= 781) {
-				photo.setAttribute("src", "./img/fog.png");
-			} else photo.setAttribute("src", "./img/unknow.png");
+				photo.setAttribute("src", "./fog.png");
+			} else photo.setAttribute("src", "./unknow.png");
 
 			// console.log(res.data);
 		})
