@@ -33,7 +33,7 @@ const getWeather = () => {
 			input.value = "";
 
 			if (status.id >= 200 && status.id <= 232) {
-				photo.setAttribute("src", "./img/thunderstorm.png");
+				photo.setAttribute("src", ".thunderstorm.png");
 			} else if (status.id >= 300 && status.id <= 321) {
 				photo.setAttribute("src", "./drizzle.png");
 			} else if (status.id >= 500 && status.id <= 531) {
